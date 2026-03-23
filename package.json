@@ -1,5 +1,5 @@
 {
-  "name": "node-opc-da",
+  "name": "@tier0/node-opc-da",
   "version": "1.0.7",
   "description": "A library to communicate with OPC-DA servers",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/netsmarttech/node-opc-da.git"
+    "url": "https://github.com/FREEZONEX/node-opc-da.git"
   },
   "keywords": [
     "opc",
@@ -19,8 +19,11 @@
   ],
   "author": "Guilherme Francescon <guilherme.francescon@netsmarttech.com>",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "node-dcom": "^1.0.9",
+    "@tier0/node-dcom": "^1.2.0",
     "random": "^2.1.1",
     "long": "^4.0.0"
   }
