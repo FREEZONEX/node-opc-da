@@ -14,7 +14,7 @@ const OPCItemManager = require('./opcItemManager');
 const OPCItemProperties = require('./opcItemProperties');
 const OPCServer = require('./opcServer');
 const OPCSyncIO = require('./opcSyncIO');
-const dcom = require('node-dcom');
+const dcom = require('@tier0/node-dcom');
 const EventEmitter = require('events').EventEmitter;
 const {ComServer, Session, Clsid} = dcom;
 

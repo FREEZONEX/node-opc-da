@@ -5,7 +5,7 @@
 */
 
 const constants = require('./constants.js');
-const dcom = require('node-dcom');
+const dcom = require('@tier0/node-dcom');
 const util = require('util');
 const debug = util.debuglog('node-opc-da');
 

@@ -12,7 +12,7 @@ const util = require('util');
 const debug = util.debuglog('node-opc-da');
 const { EventEmitter } = require('events');
 
-const { CallBuilder, ComString, ComValue, Flags, Pointer, types} = require('node-dcom');
+const { CallBuilder, ComString, ComValue, Flags, Pointer, types} = require('@tier0/node-dcom');
 
 
 /**

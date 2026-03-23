@@ -7,10 +7,11 @@
 const constants = require('./constants.js');
 const filetime = require('./filetime');
 const util = require('util');
-const dcom = require('node-dcom');
+const dcom = require('@tier0/node-dcom');
+const { Session, Clsid, ComServer } = dcom;
 const debug = util.debuglog('node-opc-da');
 
-const { CallBuilder, ComArray, ComValue, Flags, Pointer, Struct, Variant, Types } = require('node-dcom');
+const { CallBuilder, ComArray, ComValue, Flags, Pointer, Struct, Variant, Types } = require('@tier0/node-dcom');
 
 /**
  * Represents an OPC Sync IO Object

@@ -15,7 +15,7 @@ const filetime = require('./filetime');
 const util = require('util');
 const debug = util.debuglog('node-opca-da');
 const events = require('events');
-const { CallBuilder, ComString, ComValue, Flags, Pointer, Struct, Types } = require('node-dcom');
+const { CallBuilder, ComString, ComValue, Flags, Pointer, Struct, Types } = require('@tier0/node-dcom');
 
 const groupCache = new WeakMap();
 

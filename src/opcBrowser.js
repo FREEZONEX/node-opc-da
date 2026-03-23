@@ -5,7 +5,7 @@
 */
 
 const constants = require('./constants.js');
-const {CallBuilder, ComString, ComValue, Types, Pointer, Flags} = require('node-dcom');
+const {CallBuilder, ComString, ComValue, Types, Pointer, Flags} = require('@tier0/node-dcom');
 const EnumString = require('./enumString');
 const util = require('util');
 const debug = util.debuglog('node-opc-da');

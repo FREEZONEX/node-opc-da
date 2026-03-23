@@ -1,6 +1,6 @@
 //@ts-check
 
-const {Struct} = require('node-dcom');
+const {Struct} = require('@tier0/node-dcom');
 const Long = require('long');
 
 class FileTime {

@@ -1,7 +1,7 @@
 {
   "name": "@tier0/node-opc-da",
-  "version": "1.0.7",
-  "description": "A library to communicate with OPC-DA servers",
+  "version": "1.0.9",
+  "description": "An implementation of the OPC DA Specification for Node.js",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tier0/node-dcom": "^1.2.0",
+    "@tier0/node-dcom": "1.2.1",
     "random": "^2.1.1",
     "long": "^4.0.0"
   }
